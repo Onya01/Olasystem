@@ -1,13 +1,23 @@
 .serv h1 {
-    margin: 0;
-    text-align: center;
-    font-size: 64px;
-    line-height: 76.8px;
-    font-family: 'Sora', sans-serif;
-    font-weight: 700;
+  margin: 0;
+  text-align: center;
+  font-size: 64px;
+  line-height: 76.8px;
+  /* font-family: 'Sora', sans-serif; */
+  font-weight: 700;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(12, 5, 109) 0%,
+    rgb(251, 190, 62) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Sora", Helvetica;
 }
 
 .grid1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
