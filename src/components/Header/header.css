@@ -1,0 +1,22 @@
+/* .body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+} */
+.heder {
+    background-color: #fff;
+    font-weight: 400;
+}
+
+.head {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head .a {
+    text-decoration: none;
+    text-decoration-style: none;
+}
