@@ -1,27 +1,37 @@
 .about_us {
-    background: #000;
-    /* color: #fff; */
+  background: #000;
+  /* color: #fff; */
 }
 
 hr {
-    width: 50px;
-    color: rgb(41, 36, 7);
-    background: gold;
+  width: 50px;
+  color: rgb(41, 36, 7);
+  background: gold;
 }
 
 .about_us h1 {
-    border-top: 5rem;
-    border-color: white;
-    color: gold;
-    margin: 0;
-    font-size: 64px;
-    line-height: 76.8px;
-    font-family: 'Sora', sans-serif;
-    font-weight: 700;
-    text-align: center;
+  border-top: 5rem;
+  border-color: white;
+  /* color: gold; */
+  margin: 0;
+  font-size: 64px;
+  line-height: 76.8px;
+  /* font-family: 'Sora', sans-serif; */
+  font-weight: 700;
+  text-align: center;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(12, 5, 109) 0%,
+    rgb(251, 190, 62) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Sora", Helvetica;
 }
 
 .about_us p {
-    padding: .5rem;
-    color: #fff;
+  padding: 0.5rem;
+  color: #fff;
 }
