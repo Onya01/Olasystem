@@ -1,0 +1,10 @@
+.sets {
+    position: relative;
+}
+.center-logo {
+    position: absolute;
+    margin-left: 10rem;
+    top: 28rem;
+    z-index: 99;
+    border-radius: 50%;
+}

@@ -1,5 +1,6 @@
 import './header.css';
 import logo from '../../assets/logo.png';
+import { useState } from 'react';
 
 const Header = () => {
     const [activeNav, setActiveNav] = useState('#');
