@@ -6,6 +6,7 @@
 .heder {
     background-color: #fff;
     font-weight: 400;
+    margin: 0;
 }
 
 .head {
@@ -14,9 +15,44 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
 }
 
 .head .a {
     text-decoration: none;
     text-decoration-style: none;
+}
+
+.logo {
+    margin-left: 6.5rem;
+    align-items: center;
+    border-radius: 1rem;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.nav1 {
+    background-color: darkblue;
+    height: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    z-index: 99;
+}
+.nav2 {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 13.5rem;
+    position: relative;
+    margin-bottom: 0;
+}
+.nav2 .a {
+    color: #fff;
 }
