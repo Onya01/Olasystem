@@ -1,0 +1,13 @@
+.serv h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 64px;
+    line-height: 76.8px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
