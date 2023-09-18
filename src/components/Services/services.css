@@ -4,6 +4,7 @@
 .service {
     background-color: #e4e0e0;
     padding: 50px 50px;
+    
   }
   
   /* Style for the .serv h1 element */
@@ -25,30 +26,32 @@
     font-family: "Sora", Helvetica;
   }
 
+  .grid {
+    padding-top: 50px;
+  }
   
-  
-  /* Style for the grid container */
+
   .grid1 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
-    grid-gap: 1px; /* Gap between grid items */
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 1px; 
   }
 
-  /* Style for the grid2 container */
+  
   .grid2 {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
-    grid-gap: 1px; /* Gap between grid items */
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 1px; 
   }
   
   
-  /* Style for each section within the grid */
+ 
   .serve {
-    background-color: black; /* Background color for each section */
+    background-color: black; 
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    border: 1px solid #ddd; /* Border around each section */
+    border: 1px solid #ddd; 
     color: #ffff;
   }
 
@@ -71,10 +74,4 @@
 
   }
 
-  
-  
-  
-  
-  /* Add styles for specific sections within grid2 as needed */
-  /* .mg, .web, .mobile, .datab, .more, etc. */
   
