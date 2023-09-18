@@ -1,6 +1,6 @@
 .about_us {
   background: #000;
-  /* color: #fff; */
+  margin-bottom: 0;
 }
 
 hr {
@@ -12,11 +12,9 @@ hr {
 .about_us h1 {
   border-top: 5rem;
   border-color: white;
-  /* color: gold; */
   margin: 0;
   font-size: 64px;
   line-height: 76.8px;
-  /* font-family: 'Sora', sans-serif; */
   font-weight: 700;
   text-align: center;
   -webkit-background-clip: text !important;
@@ -35,4 +33,36 @@ hr {
   padding: 0.5rem;
   color: #fff;
   text-align: center;
+  margin: 0;
+}
+
+.about {
+  padding-bottom: 0px;
+}
+
+.lin {
+    margin-left: 34rem;
+}
+
+@media (max-width: 768px) {
+  .about_us h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .about_us p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about_us h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .about_us p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
 }

@@ -1,13 +1,18 @@
 import './about.css';
-
+import Line from '../../assets/line.png';
 const About = () => {
   return (
-    <section id='#about'>
+    <section className='about' id='#about'>
         <div className="about_us">
         <div className="line">
             -
         </div>
-        <hr />
+
+        <img className="lint" src={Line} alt="line" 
+         width={75}
+          height={5}
+        />
+        
         <h1>about Us</h1>
 
         <p>

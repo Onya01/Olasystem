@@ -1,69 +1,93 @@
 .service {
-    background-color: #e4e0e0;
-    padding: 50px 50px; 
+  background-color: #e4e0e0;
+  margin-top: 0;
+}
+
+.serv h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 64px;
+  line-height: 76.8px;
+  font-weight: 700;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    180deg,
+    rgb(12, 5, 109) 0%,
+    rgb(251, 190, 62) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Sora", Helvetica;
+}
+
+.lint {
+    position: relative;
+    margin-left: 45%;
+}
+
+.grid {
+  padding-top: 50px;
+}
+
+.grid1,
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1px;
+}
+
+.serve {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #ffff;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.set {
+  border-radius: 10px;
+}
+
+.serve1 {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  color: #ffff;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+@media (max-width: 768px) {
+  .service {
+    padding: 20px;
   }
 
-  .serv h1 {
-    margin: 0;
-    
-    text-align: center;
-    font-size: 64px;
-    line-height: 76.8px;
-    font-weight: 700;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(
-      180deg,
-      rgb(12, 5, 109) 0%,
-      rgb(251, 190, 62) 100%
-    );
-    background-clip: text;
-    color: transparent;
-    font-family: "Sora", Helvetica;
-  }
-
-  .grid {
-    padding-top: 50px;
-  }
-  
-  .grid1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    grid-gap: 1px; 
-  }
-
+  .grid1,
   .grid2 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    grid-gap: 1px; 
+    grid-template-columns: repeat(2, 1fr);
   }
-  
-  .serve {
-    background-color: black; 
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    border: 1px solid #ddd; 
-    color: #ffff;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .service {
+    padding: 30px;
   }
 
-  .serve1 {
-    background-color: blue;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    color: #ffff;
-    border-radius: 10px;
+  .grid1,
+  .grid2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .service {
+    padding: 50px 50px;
   }
 
-  .serve2 {
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ddd;
-    color: #ffff;
-    border-radius: 10px;
-    background-image: url(../../assets/olasystem.png);
-
+  .grid1,
+  .grid2 {
+    grid-template-columns: repeat(5, 1fr);
   }
-
-  
+}
