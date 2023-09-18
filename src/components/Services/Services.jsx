@@ -10,30 +10,30 @@ const Services = () => {
         </div>
 
         <div className="grid">
-            <div className="gird1">
-                <section>
+            <div className="grid1">
+                <section className='serve'>
                 <div className="staff">
                  <h1>IT Staffing</h1>
                 </div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="api"><h1>API Integration</h1></div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="banking">
                 <h1>Banking & Finance</h1>
                 </div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="cons">
                 <h1>IT Consultations</h1>
                 </div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="micro">
                 <h1>Micro Service Development</h1>
                 </div>
@@ -42,31 +42,31 @@ const Services = () => {
             </div>
 
             <div className="grid2">
-                <section>
+                <section className='serve'>
                 <div className="mg">
-                <img src={olasystem} alt="Olasystem" />
+                <img src={olasystem} alt="Olasystem" width={80} />
                 </div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="web">
                 <h1>Web Development</h1>
                 </div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="mobile">
                 <h1>Mobile Development</h1>
                 </div>
                 </section>
 
-                <section>
+                <section className='serve'>
                 <div className="datab">
-                <h1>Databse Administrator</h1>
+                <h1>Database Administrator</h1>
                 </div>
                 </section>
                 
-                <section>
+                <section className='serve1'>
                 <div className="more">
                 <h1>and many more</h1>
                 </div>

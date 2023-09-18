@@ -1,19 +1,80 @@
-.serv h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 64px;
-  line-height: 76.8px;
-  /* font-family: 'Sora', sans-serif; */
-  font-weight: 700;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(
-    180deg,
-    rgb(12, 5, 109) 0%,
-    rgb(251, 190, 62) 100%
-  );
-  background-clip: text;
-  color: transparent;
-  font-family: "Sora", Helvetica;
-}
+/* services.css */
 
+/* Style for the .service container */
+.service {
+    background-color: #e4e0e0;
+    padding: 50px 50px;
+  }
+  
+  /* Style for the .serv h1 element */
+  .serv h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 64px;
+    line-height: 76.8px;
+    font-weight: 700;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(
+      180deg,
+      rgb(12, 5, 109) 0%,
+      rgb(251, 190, 62) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    font-family: "Sora", Helvetica;
+  }
+
+  
+  
+  /* Style for the grid container */
+  .grid1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
+    grid-gap: 1px; /* Gap between grid items */
+  }
+
+  /* Style for the grid2 container */
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
+    grid-gap: 1px; /* Gap between grid items */
+  }
+  
+  
+  /* Style for each section within the grid */
+  .serve {
+    background-color: black; /* Background color for each section */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Border around each section */
+    color: #ffff;
+  }
+
+  .serve1 {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #ffff;
+    border-radius: 10px;
+
+  }
+
+  .serve2 {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #ffff;
+    border-radius: 10px;
+
+  }
+
+  
+  
+  
+  
+  /* Add styles for specific sections within grid2 as needed */
+  /* .mg, .web, .mobile, .datab, .more, etc. */
+  
