@@ -42,9 +42,9 @@ const Services = () => {
             </div>
 
             <div className="grid2">
-                <section className='serve'>
+                <section className='serve2'>
                 <div className="mg">
-                <img src={olasystem} alt="Olasystem" width={80} />
+                {/* <img src={olasystem} alt="Olasystem" width={80} /> */}
                 </div>
                 </section>
 
