@@ -1,37 +1,35 @@
-/* .body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-} */
+
 .heder {
     background-color: #fff;
     font-weight: 400;
     margin: 0;
-}
-
-.head {
+    font-family: "Poppins", Helvetica;
+  }
+  
+  .head {
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-}
-
-.head .a {
+  }
+  
+  .head .a {
     text-decoration: none;
     text-decoration-style: none;
-}
-
-.logo {
+    font-family: "Sora", Helvetica;
+  }
+  
+  .logo {
     margin-left: 6.5rem;
     align-items: center;
     border-radius: 1rem;
     position: relative;
     margin-bottom: 0;
-}
-
-.nav1 {
+  }
+  
+  .nav1 {
     background-color: darkblue;
     height: 5rem;
     margin-top: 2rem;
@@ -41,8 +39,9 @@
     align-items: center;
     margin-bottom: 0;
     z-index: 99;
-}
-.nav2 {
+  }
+  
+  .nav2 {
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -52,7 +51,80 @@
     margin-right: 13.5rem;
     position: relative;
     margin-bottom: 0;
-}
-.nav2 .a {
+  }
+  
+  .nav2 a.active {
     color: #fff;
-}
+  }
+  
+  .nav2 a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+  }
+  
+  .nav2 a:hover {
+    color: rgb(243, 220, 12);
+  }
+  
+  .text1 {
+    font-family: "Poppins", Helvetica;
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+  }
+
+  .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  .office {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .head {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav2 {
+      flex-direction: column;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .nav2 a {
+      margin-top: 1rem;
+    }
+  }
+  
+ 
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
+    .nav2 {
+      margin-right: 6.5rem; 
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    
+    .nav2 {
+      margin-right: 13.5rem;
+    }
+  }
+  
