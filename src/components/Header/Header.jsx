@@ -15,7 +15,7 @@ const Header = () => {
         <div className="head">
         <div className="office">
           <MdLocationPin />
-        <p>447 Broad, 2nd floor suit #2281, New York</p>
+        <p>447 Broadway, 2nd floor suit #2281, New York</p>
         </div>
         <div className="email">
         <AiOutlineMail />

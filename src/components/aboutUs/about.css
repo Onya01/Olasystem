@@ -26,7 +26,7 @@ hr {
   );
   background-clip: text;
   color: transparent;
-  font-family: "Sora", Helvetica;
+  font-family: "Sora";
 }
 
 .about_us p {
@@ -34,6 +34,9 @@ hr {
   color: #fff;
   text-align: center;
   margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'poppins';
 }
 
 .about {

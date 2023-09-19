@@ -1,6 +1,9 @@
 import "./contact.css";
 import Map from "../../assets/image 8.png";
 import Line from '../../assets/line.png';
+import { MdLocationPin } from 'react-icons/md';
+import { AiOutlineMail } from 'react-icons/ai';
+import { HiPhone } from 'react-icons/hi';
 
 const Contact = () => {
   return (
@@ -14,11 +17,17 @@ const Contact = () => {
             />
             <h1>contacts</h1>
             <section>
-              <p>447 Broad, 2nd floor suit #2281, New York</p>
+              <div className="office">
+              <MdLocationPin className="icon icon_office" />
+              <p className="para_office">447 Broadway, 2nd floor suit #2281, New York</p>
+              </div>
             </section>
+
             <div className="post">
             <section>
-              <a
+              <div className="email">
+                <AiOutlineMail className="icon icon_email"/>
+                <a
                 className='texta'
                 href='mailto:tunji@olasystems.com'
                 rel='noopener noreferrer'
@@ -26,10 +35,13 @@ const Contact = () => {
               >
                 tunji@olasystems.com
               </a>
+              </div>
             </section>
 
             <section>
-              <a
+              <div className="phone">
+                <HiPhone className="icon"/>
+                <a
                 className='textb'
                 href='tel:+1 (347) 394-3326'
                 rel='noopener noreferrer'
@@ -37,6 +49,7 @@ const Contact = () => {
               >
                 +1 (347) 394-3326
               </a>
+              </div>
             </section>
             </div>
           </div>
