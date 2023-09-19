@@ -7,11 +7,11 @@ const Services = () => {
     <section className='services' id='#services'>
       <div className='service'>
       <img className="lint" src={Line} alt="line" 
-        width={75}
-        height={5}
+        width={100}
+        height={7}
       />
         <div className='serv'>
-          <h1>services</h1>
+          <h1 className="text_services">services</h1>
         </div>
 
         <div className='grid'>

@@ -12,10 +12,10 @@ const Contact = () => {
         <div className='cont'>
           <div className='conta'>
             <img src={Line} alt="line" 
-                width={75}
-                height={5}
+                width={100}
+                height={10}
             />
-            <h1>contacts</h1>
+            <h1 className="main_text">contacts</h1>
             <section>
               <div className="office">
               <MdLocationPin className="icon icon_office" />
@@ -40,7 +40,7 @@ const Contact = () => {
 
             <section>
               <div className="phone">
-                <HiPhone className="icon"/>
+                <HiPhone className="icon icon_phone"/>
                 <a
                 className='textb'
                 href='tel:+1 (347) 394-3326'

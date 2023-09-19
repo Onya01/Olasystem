@@ -18,12 +18,12 @@
   );
   background-clip: text;
   color: transparent;
-  font-family: "Sora", Helvetica;
+  font-family: "Sora"
 }
 
 .lint {
-    position: relative;
-    margin-left: 45%;
+  position: relative;
+  margin-left: 45%;
 }
 
 .grid {
@@ -90,4 +90,9 @@
   .grid2 {
     grid-template-columns: repeat(5, 1fr);
   }
+}
+
+.service {
+  padding-bottom: 100px;
+  padding: 100px 100px;
 }
