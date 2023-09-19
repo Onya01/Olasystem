@@ -57,8 +57,6 @@ a {
   gap: 0.5rem;
 }
 
-.icon_email {}
-
 .phone {
   display: flex;
   flex-direction: row;
