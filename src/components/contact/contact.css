@@ -57,13 +57,7 @@ a {
   gap: 0.5rem;
 }
 
-.icon_email {
-    color: #fff;
-    Width: 67px;
-    Height:67px;
-    Top: 466px;
-    Left:122px
-}
+.icon_email {}
 
 .phone {
   display: flex;
