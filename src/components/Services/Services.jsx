@@ -1,17 +1,14 @@
 import "./services.css";
 import olasystem from "../../assets/olasystem.png";
-import Line from '../../assets/line.png'
+import Line from "../../assets/line.png";
 
 const Services = () => {
   return (
     <section className='services' id='#services'>
       <div className='service'>
-      <img className="lint" src={Line} alt="line" 
-        width={100}
-        height={7}
-      />
+        <img className='lint' src={Line} alt='line' width={100} height={7} />
         <div className='serv'>
-          <h1 className="text_services">services</h1>
+          <h1 className='text_services'>services</h1>
         </div>
 
         <div className='grid'>
@@ -50,7 +47,13 @@ const Services = () => {
           <div className='grid2'>
             <section className='serve2'>
               <div className='mg'>
-                <img className="set" src={olasystem} alt='Olasystem' width={220} height={130} />
+                <img
+                  className='set'
+                  src={olasystem}
+                  alt='Olasystem'
+                  width={220}
+                  height={130}
+                />
               </div>
             </section>
 

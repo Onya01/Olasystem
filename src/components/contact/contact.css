@@ -58,11 +58,11 @@ a {
 }
 
 .icon_email {
-    color: #fff;
-    width: 67px;
-    height: 67px;
-    top: 466px;
-    left: 122px;
+  color: #fff;
+  width: 67px;
+  height: 67px;
+  top: 466px;
+  left: 122px;
 }
 
 .phone {
@@ -88,47 +88,51 @@ a {
   border-radius: 50%;
 }
 .email a {
-width: 318px;
-height: 56px;
-top: 468px;
-left: 239px;
-color: black;
-text-decoration: none;
-font-family: 'Poppins';
-font-weight: 400;
-font-size: 28px;
-line-height: 56px;
-text-align: justify;
+  width: 318px;
+  height: 56px;
+  top: 468px;
+  left: 239px;
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 56px;
+  text-align: justify;
 }
 
 .icon_phone {
-    color: #fff;
-    width: 67px;
-    height: 67px;
-    top: 556px;
-    left: 139px;
+  color: #fff;
+  width: 67px;
+  height: 67px;
+  top: 556px;
+  left: 139px;
 }
 
 .phone a {
-    color: black;
-    width: 252px;
-    height: 56px;
-    top: 558px;
-    left: 239px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 56px;
-    text-align: justify;
+  color: black;
+  width: 252px;
+  height: 56px;
+  top: 558px;
+  left: 239px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 56px;
+  text-align: justify;
 }
 
 .main_text {
-    width: 293px;
-    height: 77px;
-    top: 219px;
-    left: 122px;
-    font-family: 'Sora';
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 76.8px;
+  font-family: "Sora";
+  font-weight: 700;
+  font-size: 64px;
+  padding-top: 1px;
 }
+
+.place {
+  width: 400px;
+  height: 320px;
+  top: 180px;
+  left: 755px;
+}
+

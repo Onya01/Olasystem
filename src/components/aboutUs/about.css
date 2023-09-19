@@ -27,16 +27,21 @@ hr {
   background-clip: text;
   color: transparent;
   font-family: "Sora";
+  padding-top: 20px;
 }
 
 .about_us p {
-  padding: 0.5rem;
+  padding: 1rem;
   color: #fff;
-  text-align: center;
-  margin: 0;
-  font-size: 15px;
+  font-family: "Poppins";
   font-weight: 400;
-  font-family: 'poppins';
+  line-height: 40px;
+  text-align: justify;
+  width: 1185px;
+  height: 520px;
+  top: 352px;
+  padding-top: 50px;
+  margin: 0;
 }
 
 .about {
@@ -44,7 +49,7 @@ hr {
 }
 
 .lin {
-    margin-left: 34rem;
+  margin-left: 34rem;
 }
 
 @media (max-width: 768px) {
@@ -68,4 +73,10 @@ hr {
 }
 
 @media (min-width: 1025px) {
+}
+
+.about_line {
+  position: relative;
+  margin-left: 46%;
+  padding-top: 100px;
 }
