@@ -4,7 +4,7 @@ import Line from "../../assets/line.png";
 
 const Services = () => {
   return (
-    <section className='services' id='#services'>
+    <section className='services' id='services'>
       <div className='service'>
         <img className='lint' src={Line} alt='line' width={100} height={7} />
         <div className='serv'>
@@ -12,77 +12,125 @@ const Services = () => {
         </div>
 
         <div className='grid'>
-          <div className='grid1'>
-            <section className='serve'>
+          <section className="staff">
+            <div>
+             <p>IT Staffing</p>
+            </div>
+          </section>
+
+          <section className="api">
+            <p>API Integration</p>
+          </section>
+
+          <section className="banking">
+            <p>Banking & Finance</p>
+          </section>
+
+          <section className="IT">
+            <p>IT Consultations</p>
+          </section>
+
+          <section className="micro">
+            <p>Micro Service Development</p>
+          </section>
+
+          <section>
+            <img
+              className='set'
+              src={olasystem}
+              alt='Olasystem'
+              width={150}
+              height={150}
+            />
+          </section>
+
+          <section className="web">
+            <p>Web Development</p>
+          </section>
+
+          <section className="mobile">
+            <p>Mobile Development</p>
+          </section>
+
+          <section className="data">
+            <p>Database Administrator</p>
+          </section>
+
+          <section className="more">
+            <p>and many more</p>
+          </section>
+
+          {/* <div className='grid1'> */}
+            {/* <section className='serve'>
               <div className='staff'>
                 <h1>IT Staffing</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='api'>
                 <h1>API Integration</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='banking'>
                 <h1>Banking & Finance</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='cons'>
                 <h1>IT Consultations</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='micro'>
                 <h1>Micro Service Development</h1>
               </div>
-            </section>
+            </section> */}
           </div>
 
-          <div className='grid2'>
-            <section className='serve2'>
-              <div className='mg'>
-                <img
+          {/* <div className='grid2'> */}
+            {/* <section className='serve2'>
+              <div className='mg'> */}
+                {/* <img
                   className='set'
                   src={olasystem}
                   alt='Olasystem'
                   width={220}
                   height={130}
-                />
-              </div>
-            </section>
+                /> */}
+              {/* </div>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='web'>
                 <h1>Web Development</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='mobile'>
                 <h1>Mobile Development</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve'>
+            {/* <section className='serve'>
               <div className='datab'>
                 <h1>Database Administrator</h1>
               </div>
-            </section>
+            </section> */}
 
-            <section className='serve1'>
+            {/* <section className='serve1'>
               <div className='more'>
                 <h1>and many more</h1>
               </div>
-            </section>
+            </section> */}
           </div>
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </section>
   );
 };

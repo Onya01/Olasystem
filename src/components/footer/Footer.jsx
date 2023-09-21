@@ -3,11 +3,11 @@ import Olasystem from '../../assets/olasystem.png';
 
 const Footer = () => {
   return (
-    <section id='footer'>
+    <section className='footer' id='footer'>
       <div className="match_footer">
         <img className='olas'
          src={Olasystem} alt="footer"
-         height={200} 
+         height={80} 
         />
         
         <p>

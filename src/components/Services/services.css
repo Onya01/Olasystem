@@ -1,6 +1,7 @@
 .service {
   background-color: #e4e0e0;
-  margin-top: 0;
+  margin-top: 0px;
+  height: 500px;
 }
 
 .serv h1 {
@@ -24,75 +25,130 @@
 .lint {
   position: relative;
   margin-left: 45%;
-}
-
-.grid {
   padding-top: 50px;
 }
 
-.grid1,
-.grid2 {
+.grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1px;
+  grid-template-columns: repeat(5, 150px);
+  gap: 2px;
+  padding-top: 50px;
+  margin: 10px;
+
 }
 
-.serve {
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #ddd;
-  color: #ffff;
-  border-radius: 10px;
-  background-color: black;
+
+@media (max-width: 500px) {
+  .grid {
+    grid-template-columns: repeat(1, 150px);
+    padding-top: 20px;
+    /* padding-left: 35px; */
+    margin: 5px;
+    align-content: center;
+    justify-content: center;
+  }
+.serv h1 {
+  width: 300px;
+  justify-content: center;
+  align-content: center;
+  padding-left: 35px;
+}
+
+.lint {
+  margin-left: 38%;
+}
+
+.service {
+  height: fit-content;
+  padding-bottom: 50px;
+  /* width: fit-content; */
+}
+  .set{
+    width: 150px;
+  }
+}
+
+.staff,
+.api,
+.banking,
+.IT,
+.micro,
+.web,
+.mobile,
+.data {
+  background: #000;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  padding: 25px;
+  
+}
+
+
+.more {
+  background: blue;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  top: 289px;
+  left: 225px;
+  padding: 25px;
 }
 
 .set {
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
-.serve1 {
-  padding: 20px;
+
+.grid p {
+  color: #fff;
   text-align: center;
-  border: 1px solid #ddd;
-  color: #ffff;
-  border-radius: 10px;
-  background-color: blue;
+  font-family: 'Poppins';
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 150px);
+    padding-top: 20px;
+    margin: 5px;
+    justify-content: center;
+  }
+
   .service {
-    padding: 20px;
+    height: fit-content;
+  
   }
 
-  .grid1,
-  .grid2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .service {
-    padding: 30px;
-  }
-
-  .grid1,
-  .grid2 {
-    grid-template-columns: repeat(3, 1fr);
+  .set{
+    width: 150px;
   }
 }
 
 @media (min-width: 1025px) {
-  .service {
-    padding: 50px 50px;
-  }
-
-  .grid1,
-  .grid2 {
-    grid-template-columns: repeat(5, 1fr);
+  .grid{
+    /* padding-left: 150px; */
+    justify-content: center;
   }
 }
 
 .service {
-  padding-bottom: 100px;
-  padding: 100px 100px;
+  background: #f5f1f1;
+  margin-bottom: 0;
+  max-width: 100%;
+  opacity: 0; 
+  animation: fadeUp 1s ease-in-out forwards; 
 }
+
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

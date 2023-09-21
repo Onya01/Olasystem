@@ -7,11 +7,11 @@ import { HiPhone } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <section id='#contacts'>
+    <section className="contacts" id='contacts'>
       <div className='con'>
         <div className='cont'>
           <div className='conta'>
-            <img src={Line} alt='line' width={100} height={8} />
+            <img className="line" src={Line} alt='line' width={100} height={8} />
             <h1 className='main_text'>contacts</h1>
             <section>
               <div className='office'>

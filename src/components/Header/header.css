@@ -1,23 +1,24 @@
-.heder {
+.header {
   background-color: #fff;
   font-weight: 400;
   margin: 0;
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins";
 }
 
 .head {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   position: relative;
+  padding-bottom: 0;
 }
 
 .head .a {
   text-decoration: none;
   text-decoration-style: none;
-  font-family: "Sora", Helvetica;
+  font-family: "Sora";
 }
 
 .logo {
@@ -30,14 +31,13 @@
 
 .nav1 {
   background-color: darkblue;
-  height: 5rem;
-  margin-top: 2rem;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
-  z-index: 99;
+  z-index: 99;  
 }
 
 .nav2 {
@@ -67,20 +67,20 @@
 }
 
 .text1 {
-  font-family: "Poppins", Helvetica;
+  font-family: "Poppins";
   text-decoration: none;
   text-decoration-style: none;
   color: black;
 }
 
-.email {
+.emails {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
 }
 
-.phone {
+.phones {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,31 +94,100 @@
   gap: 0.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .head {
     flex-direction: column;
     text-align: center;
-  }
+    padding-bottom: 1rem;
+    border-bottom: solid #ccc .1rem; 
+    margin:-1rem; 
+    padding-left:180px; 
+    justify-content:center; 
+    align-items:center; 
+    gap: 5px; 
+    position:relative; 
+    z-index:auto; 
+    margin-top:-1rem; 
+    padding-top:.5rem; 
+    border:none; 
+    height:220px; 
+    background-color:#fff
+   }
 
-  .nav2 {
+   .nav1 {
+    background-color: darkblue;
+    height: 70px;
+    display: flex;
     flex-direction: column;
-    margin-right: 0;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    z-index: 99;  
   }
 
-  .nav2 a {
-    margin-top: 1rem;
-  }
+   @media (min-width: 500px) and (max-width: 960px) {
+    .head {
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+      border-bottom: solid #ccc .1rem; 
+      margin:-1rem; 
+      padding-left:180px; 
+      justify-content:center; 
+      align-items:center; 
+      gap: 15px; 
+      position:relative; 
+      z-index:auto; 
+      margin-top:-1rem; 
+      padding-top:.5rem; 
+      border:none; 
+      height:230px; 
+      background-color:#fff
+     }
+
+   }
+
+   .nav2 {
+     flex-direction: column;
+     margin-right:0; 
+     justify-content:center; 
+     align-items:center; 
+     gap:.5rem; 
+     margin-top:-1rem
+   }
+
+   .nav2 a {
+     margin-top:.5rem
+   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .nav2 {
-    margin-right: 6.5rem;
-  }
+@media (min-width:769px) and (max-width:1024px) {
+   .nav2 {
+      margin-right:6.5rem
+   }
 }
 
-@media (min-width: 1025px) {
-  .nav2 {
-    margin-right: 13.5rem;
+@media (min-width:1025px) {
+   .nav2 {
+      margin-right:13.5rem
+   }
+}
+
+.navbar {
+  margin-bottom: 0;
+  max-width: 100%;
+  opacity: 0; 
+  animation: fadeUp 1s ease-in-out forwards; 
+}
+
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

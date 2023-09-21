@@ -9,7 +9,7 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#Home");
 
   return (
-    <nav>
+    <nav className="navbar">
       <div className='set'>
         <div className='heder'>
           <div className='head'>
@@ -17,7 +17,7 @@ const Header = () => {
               <MdLocationPin />
               <p>447 Broadway, 2nd floor suit #2281, New York</p>
             </div>
-            <div className='email'>
+            <div className='emails'>
               <AiOutlineMail />
               <a
                 className='text1'
@@ -28,7 +28,7 @@ const Header = () => {
                 tunji@olasystems.com
               </a>
             </div>
-            <div className='phone'>
+            <div className='phones'>
               <HiPhone />
               <a
                 className='text1'

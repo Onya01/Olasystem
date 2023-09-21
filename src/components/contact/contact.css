@@ -6,18 +6,24 @@
 }
 
 .con {
-  margin-top: 5rem;
+  margin-top: 0.5rem;
+  height: 0.5rem;
+  padding-bottom: 0px;
 }
 
 .conta h1 {
   color: darkblue;
-  font-weight: bold;
-  font-size: 800;
+  /* font-weight: bold; */
+  font-size: 35px;
   font-family: "Montserrat", "Poppins";
+  padding-top: 0px;
 }
 
-.lin {
-  width: 32rem;
+.line {
+  width: 7rem;
+  height: 7px;
+  padding-top: 50px;
+  margin-bottom: 1px;
 }
 
 .post {
@@ -28,19 +34,19 @@
 
 .icon_office {
   color: #fff;
-  width: 67px;
-  height: 67px;
-  left: 122px;
-  top: 371px;
+  width: 20px;
+  height: 20px;
+  /* left: 122px;
+  top: 371px; */
 }
 
 .para_office {
-  width: 300px;
-  height: 58px;
+  width: 280px;
+  height: 40px;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 24px;
-  left: 238px;
+  font-size: 15px;
+  /* left: 238px; */
   line-height: 28.8px;
   text-align: justify;
 }
@@ -59,10 +65,10 @@ a {
 
 .icon_email {
   color: #fff;
-  width: 67px;
-  height: 67px;
-  top: 466px;
-  left: 122px;
+  width: 20px;
+  height: 20px;
+  /* top: 466px;
+  left: 122px; */
 }
 
 .phone {
@@ -76,7 +82,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
+  /* gap: 0.5rem; */
 }
 
 .icon {
@@ -88,51 +94,93 @@ a {
   border-radius: 50%;
 }
 .email a {
-  width: 318px;
+  width: 3px;
   height: 56px;
-  top: 468px;
-  left: 239px;
   color: black;
   text-decoration: none;
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 28px;
-  line-height: 56px;
+  font-size: 15px;
+  line-height: 50px;
   text-align: justify;
 }
 
 .icon_phone {
   color: #fff;
-  width: 67px;
-  height: 67px;
-  top: 556px;
-  left: 139px;
+  width: 20px;
+  height: 20px;
+  /* top: 556px;
+  left: 139px; */
 }
 
 .phone a {
   color: black;
-  width: 252px;
-  height: 56px;
-  top: 558px;
-  left: 239px;
+  width: 250px;
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 28px;
-  line-height: 56px;
+  font-size: 15px;
   text-align: justify;
 }
 
 .main_text {
   font-family: "Sora";
   font-weight: 700;
-  font-size: 64px;
-  padding-top: 1px;
+  font-size: 54px;
 }
 
 .place {
-  width: 400px;
-  height: 320px;
-  top: 180px;
-  left: 755px;
+  width: 700px;
+  height: 280px;
+  border: solid 3px;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 50px;
 }
 
+@media (max-width: 500px) {
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .place {
+    width: fit-content;
+  }
+
+  .contacts{
+    height: fit-content;
+    padding-bottom: 350px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 960px) {
+    .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      .place {
+        padding-top: 50px;
+      }
+}
+
+.contacts {
+    margin-bottom: 0;
+    max-width: 100%;
+    opacity: 0; 
+    animation: fadeUp 1s ease-in-out forwards; 
+  }
+  
+  
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
