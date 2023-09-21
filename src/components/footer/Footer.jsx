@@ -10,7 +10,7 @@ const Footer = () => {
          height={80} 
         />
         
-        <p>
+        <p className='legging'>
             &copy;Olasystems Corp 2023.
         </p>
       </div>

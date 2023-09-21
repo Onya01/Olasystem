@@ -1,12 +1,12 @@
 import './body.css'
 // import image from '../../assets/image-ola.png';
-import olasystem from '../../assets/olasystem.png'
+import olasystem1 from '../../assets/olasystem1.png'
 
 const Nav = () => {
   return (
     <section className='home' id='Home'>
          <img className='center-logo'
-         src={olasystem} alt='centerlogo' 
+         src={olasystem1} alt='centerlogo' 
         />
 
       <div className="set">
