@@ -7,8 +7,8 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#Home");
 
   return (
-    <nav className="navbar">
-    <div className='set'>
+    // <nav className="navbar">
+    // <div className='set'>
         
 
         <nav>
@@ -49,8 +49,8 @@ const Header = () => {
             </div>
           </div>
         </nav>
-      </div>
-    </nav>
+    //   </div>
+    // </nav>
   );
 };
 
