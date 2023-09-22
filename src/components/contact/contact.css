@@ -49,6 +49,7 @@
   /* left: 238px; */
   line-height: 28.8px;
   text-align: justify;
+  /* margin-bottom: 5rem; */
 }
 
 a {
@@ -92,6 +93,7 @@ a {
     rgb(251, 190, 62) 100%
   );
   border-radius: 50%;
+  font-size: 20rem;
 }
 .email a {
   width: 3px;
@@ -133,7 +135,7 @@ a {
   height: 280px;
   border: solid 3px;
   border-color: whitesmoke;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   margin-top: 50px;
 }
 
@@ -146,28 +148,81 @@ a {
 
   .place {
     width: fit-content;
+    width: 100%;
+    height: 140px;
+    margin-top: 0;
   }
 
   .contacts{
     height: fit-content;
     padding-bottom: 350px;
   }
+
+  .line {
+    margin-left: 8rem;
+    /* margin: 3rem 8rem; */
+  }
+
+  .main_text {
+    margin-left: 2rem;
+    padding: 4rem;
+  }
+
+  .office {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5rem; */
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5rem; */
+    margin-top: 5rem;
+    /* align-items: center; */
+    /* gap: 3rem; */
+  }
+
+  .texta {
+    margin-right: 10rem;
+  }
+
+  .phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 5rem; */
+    margin-top: 5rem;
+  }
+
+  .textb {
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+  }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .cont {
         display: flex;
         flex-direction: column;
         justify-content: center;
       }
     
-      /* .place {
+      .place {
         padding-top: 50px;
-      } */
-}
+      }
+} */
 
 .contacts {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     max-width: 100%;
     opacity: 0; 
     animation: fadeUp 1s ease-in-out forwards; 

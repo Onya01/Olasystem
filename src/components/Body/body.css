@@ -43,15 +43,15 @@
   }
   
  
-  @media (min-width: 501px) and (max-width: 1024px) {
+  @media (max-width: 500px) {
     .center-logo {
-      margin-left: 8rem;
+      margin-left: 0;
     }
   }
   
-  @media (min-width: 1025px) {
+  @media (max-width: 900px) {
     .center-logo {
-      margin-left: 10rem; 
+      margin-left: 0; 
     }
   }
   
