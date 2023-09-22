@@ -6,59 +6,53 @@
     background-repeat: no-repeat;
     /* background-position: top; */
 }
-
-
-.sets {
-    position: relative;
-  }
   
-  .center-logo {
-    position: absolute;
-    top: 9rem;
-    z-index: 99;
-    border-radius: 90%;
-    height: 300px;
-    width: 300px;
-  }
+.center-logo {
+  position: absolute;
+  top: 20rem;
+  z-index: 99;
+  border-radius: 90%;
+  height: 200px;
+  width: 200px;
+  margin-left: 20rem;
+}
   
 
   @media (max-width: 900px) {
     .center-logo {
-      padding-left: 3.5rem;
-    }
-
-    .sets{
-        width: 500px;
-        height: 530px;
+      margin-left: 3.5rem;
     }
     
-    .home {
+    /* .home {
         background-image: url(../../assets/image-ola.png);
         height: 530px;
         background-size: cover;
         background-repeat: no-repeat;
     
-    }
+    } */
 
   }
   
  
   @media (max-width: 500px) {
     .center-logo {
-      margin-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
   }
   
   @media (max-width: 900px) {
     .center-logo {
-      margin-left: 0; 
+      margin-right: 30rem; 
     }
   }
   
 
   .home {
-    margin-bottom: 0;
-    max-width: 100%;
+    /* margin-bottom: 0;
+    max-width: 100%; */
     opacity: 0; 
     animation: fadeUp 1s ease-in-out forwards; 
   }

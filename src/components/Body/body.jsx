@@ -8,15 +8,6 @@ const Nav = () => {
          <img className='center-logo'
          src={olasystem1} alt='centerlogo' 
         />
-
-      <div className="set">
-        {/* <img className='sets'   src={image} alt="people"
-         width='100%'
-         height='450' 
-        /> */}
-
-       
-      </div>
       </section>  
   );
 }

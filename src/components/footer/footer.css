@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
   align-items: center;
   height: 6rem;
   line-height: 6rem;
@@ -48,6 +47,7 @@
     justify-content: space-around;
     margin-top: 40rem;
     font-weight: 400;
+    font-size: 0;
   }
 
   .legging {
@@ -68,7 +68,7 @@
     padding-right: 1.5rem;
   }
 
-  .match_footer {
+  .olas {
     padding-left: 1.5rem;
   }
 
