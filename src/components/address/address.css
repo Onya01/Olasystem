@@ -1,0 +1,54 @@
+.heder {
+    background-color: #fff;
+    font-weight: 400;
+    margin: 0;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .head {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative;
+    /* padding-bottom: 0; */
+}
+
+.office {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.emails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.phones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+    .head {
+        display: none;
+        /* flex-direction: row; */
+        /* justify-content: space-around; */
+    }
+}
+
+@media (max-width: 500px) {
+    .head {
+        display: none;
+    }
+}

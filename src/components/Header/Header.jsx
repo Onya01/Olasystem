@@ -9,38 +9,9 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#Home");
 
   return (
-    <nav className="navbar">
-      <div className='set'>
-        <div className='heder'>
-          <div className='head'>
-            <div className='office'>
-              <MdLocationPin />
-              <p>447 Broadway, 2nd floor suit #2281, New York</p>
-            </div>
-            <div className='emails'>
-              <AiOutlineMail />
-              <a
-                className='text1'
-                href='mailto:tunji@olasystems.com'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                tunji@olasystems.com
-              </a>
-            </div>
-            <div className='phones'>
-              <HiPhone />
-              <a
-                className='text1'
-                href='tel:+1 (347) 394-3326'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                +1 (347) 394-3326
-              </a>
-            </div>
-          </div>
-        </div>
+    // <nav className="navbar">
+    //   <div className='set'>
+        
 
         <nav>
           <div className='nav1'>
@@ -61,7 +32,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#about")}
                 className={activeNav === "#about" ? "active" : ""}
               >
-                About Us
+                About
               </a>
               <a
                 href='#services'
@@ -80,8 +51,8 @@ const Header = () => {
             </div>
           </div>
         </nav>
-      </div>
-    </nav>
+    //   </div>
+    // </nav>
   );
 };
 

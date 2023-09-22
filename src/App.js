@@ -1,3 +1,4 @@
+import Address from './components/address/Address';
 import Body from './components/Body/body';
 import Header from './components/Header/Header';
 import Services from './components/Services/Services';
@@ -8,6 +9,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
+      <Address />
       <Header />
       <Body />
       <About />
