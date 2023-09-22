@@ -1,16 +1,14 @@
 import "./header.css";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { HiPhone } from "react-icons/hi";
-import { MdLocationPin } from "react-icons/md";
+
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("#Home");
 
   return (
-    // <nav className="navbar">
-    //   <div className='set'>
+    <nav className="navbar">
+    <div className='set'>
         
 
         <nav>
@@ -32,7 +30,7 @@ const Header = () => {
                 onClick={() => setActiveNav("#about")}
                 className={activeNav === "#about" ? "active" : ""}
               >
-                About
+                About Us
               </a>
               <a
                 href='#services'
@@ -51,8 +49,8 @@ const Header = () => {
             </div>
           </div>
         </nav>
-    //   </div>
-    // </nav>
+      </div>
+    </nav>
   );
 };
 

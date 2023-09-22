@@ -34,7 +34,7 @@ const Address = () => {
         </a>
       </div>
     </div>
-  </div>
+  </div> 
   );
 }
 
