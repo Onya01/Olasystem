@@ -17,7 +17,7 @@ const Contact = () => {
               <div className='office'>
                 <MdLocationPin className='icon icon_office' />
                 <p className='para_office'>
-                  447 Broadway, 2nd floor suit #2281, New York
+                  447 Broadway, 2nd floor suite #2281, New York
                 </p>
               </div>
             </section>

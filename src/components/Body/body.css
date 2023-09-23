@@ -9,10 +9,11 @@
   
 .center-logo {
   position: absolute;
-  top: 20rem;
+  /* top: 20rem; */
   z-index: 99;
   border-radius: 90%;
   /* height: 200px; */
+  top: 20rem;
   width: 200px;
   margin-left: 20rem;
 }
@@ -39,6 +40,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      top: 10rem;
+      margin-left: 5rem;
       
     }
 

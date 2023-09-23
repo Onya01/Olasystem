@@ -55,13 +55,19 @@
 }
 
 .lint {
-  margin-left: 38%;
+  margin-left: 45%;
+  width: 2rem;
+  border-radius: 5%;
 }
 
 .service {
   height: fit-content;
   padding-bottom: 50px;
   /* width: fit-content; */
+}
+
+.text_services {
+  margin-left: 200px;
 }
   .set{
     width: 150px;
@@ -107,13 +113,13 @@
 }
 
 
-@media (min-width: 501px) and (max-width: 1024px) {
-  .grid {
+@media (min-width: 500px) and (max-width: 1024px) {
+  /* .grid {
     grid-template-columns: repeat(2, 150px);
     padding-top: 20px;
     margin: 5px;
     justify-content: center;
-  }
+  } */
 
   .service {
     height: fit-content;
