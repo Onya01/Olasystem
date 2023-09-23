@@ -17,35 +17,40 @@ function NavBar() {
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+          <li className="nav-item">
             <a
                 href='#Home'
-                onClick={() => setActiveNav("#Home")}
+                activeClassName="active"
                 className="nav-links"
+                onClick={handleClick}
               >
                 Home
               </a>
               <a
                 href='#about'
-                onClick={() => setActiveNav("#about")}
+                activeClassName="active"
                 className="nav-links"
+                onClick={handleClick}
               >
                 About Us
               </a>
               <a
                 href='#services'
-                onClick={() => setActiveNav("#services")}
+                activeClassName="active"
                 className="nav-links"
+                onClick={handleClick}
               >
                 Services
               </a>
               <a
                 href='#contacts'
-                onClick={() => setActiveNav("#contacts")}
+                activeClassName="active"
                 className="nav-links"
+                onClick={handleClick}
               >
                 Contacts
               </a>
+              
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
