@@ -1,51 +1,8 @@
-/* .header {
-  background-color: #fff;
-  font-weight: 400;
-  margin: 0;
-  font-family: "Poppins";
-} */
-
-/* .head {
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  position: relative;
-  padding-bottom: 0;
-} */
-
-/* .head .a {
-  text-decoration: none;
-  text-decoration-style: none;
-  font-family: "Sora";
-} */
-
-/* .logo {
-  margin-left: 6.5rem;
-  align-items: center;
-  border-radius: 1rem;
-  position: relative;
-  margin-bottom: 0;
-} */
-
-/* .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #08076b;
-  height: 70px;
-} */
-
-
-
 .nav1 {
   background-color: #08076b;
   height: 70px;
   display: flex;
   flex-direction: row;
-  /* width: 100%; */
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
@@ -56,12 +13,9 @@
   color: #fff;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
   align-items: center;
   gap: 2rem;
   font-size: 1.5rem; 
-  /* margin-right: 13.5rem; */
-  /* position: relative; */
   margin-bottom: 0;
   padding-right: 8rem;
 }
@@ -83,34 +37,6 @@
 .nav2 a:hover {
   color: rgb(243, 220, 12);
 }
-
-/* .text1 {
-  font-family: "Poppins";
-  text-decoration: none;
-  text-decoration-style: none;
-  color: black;
-} */
-
-/* .emails {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.phones {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.office {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-} */
 
 @media (max-width: 500px) {
   .nav2 {
@@ -136,92 +62,10 @@
   }
 }
 
-/* @media (max-width: 500px) {
-  .head {
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 1rem;
-    border-bottom: solid #ccc .1rem; 
-    margin:-1rem; 
-    padding-left:180px; 
-    justify-content:center; 
-    align-items:center; 
-    gap: 5px; 
-    position:relative; 
-    z-index:auto; 
-    margin-top:-1rem; 
-    padding-top:.5rem; 
-    border:none; 
-    height:220px; 
-    background-color:#fff
-   }
-
-   .nav1 {
-    background-color: darkblue;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0px;
-    z-index: 99;  
-  } */
-
-   /* @media (max-width: 500px) {
-    .head {
-      flex-direction: column;
-      text-align: center;
-      padding-bottom: 1rem;
-      border-bottom: solid #ccc .1rem; 
-      margin:-1rem; 
-      padding-left:180px; 
-      justify-content:center; 
-      align-items:center; 
-      gap: 15px; 
-      position:relative; 
-      z-index:auto; 
-      margin-top:-1rem; 
-      padding-top:.5rem; 
-      border:none; 
-      height:230px; 
-      background-color:#fff
-     } */
-
-   /* }
-
-   .nav2 {
-     flex-direction: column;
-     margin-right:0; 
-     justify-content:center; 
-     align-items:center; 
-     gap:.5rem; 
-     margin-top:-1rem
-   }
-
-   .nav2 a {
-     margin-top:.5rem
-   } */
-/* } */
-
-/* @media (min-width:769px) and (max-width:1024px) {
-   .nav2 {
-      margin-right:6.5rem
-   }
-} */
-
-/* @media (min-width:1025px) {
-   .nav2 {
-      margin-right:13.5rem
-   }
-} */
-
 .navbar {
-  /* margin-bottom: 0; */
-  /* max-width: 100%; */
   opacity: 0; 
   animation: fadeUp 1s ease-in-out forwards; 
 }
-
 
 @keyframes fadeUp {
   0% {
