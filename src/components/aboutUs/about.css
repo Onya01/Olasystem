@@ -88,7 +88,8 @@
 
 }
 .about {
-  /* width: fit-content; */
+  width: fit-content;
+  height: 31.5rem;
 }
 
 .about_line {
@@ -97,7 +98,7 @@
 
 }
 
-@media (min-width: 501px) and (max-width: 960px) {
+@media (max-width: 501px) and (max-width: 960px) {
   .about_us h1 {
     font-size: 48px;
     line-height: 60px;
