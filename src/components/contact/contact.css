@@ -151,6 +151,9 @@ a {
 }
 
 @media (max-width: 500px) {
+  .con {
+    height: 15rem;
+  }
   .cont {
     display: flex;
     flex-direction: column;
@@ -171,12 +174,12 @@ a {
 
   .line {
     /* margin-left: 8rem; */
-    padding-left: 10rem;
+    padding-left: 8rem;
     /* margin: 3rem 8rem; */
   }
 
   .main_text {
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     padding: 4rem;
   }
 
@@ -211,12 +214,12 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     gap: 2rem;
   }
 
   .textb {
-    padding: 1rem;
+    /* padding: 1rem; */
     margin-left: 8rem;
     margin-bottom: 3rem;
   }
