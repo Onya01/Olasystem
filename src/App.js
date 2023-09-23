@@ -15,14 +15,17 @@ function App() {
     <Address />
     <Router>
       <NavBar />
-
+      <Body />
+      <About />
+      <Services />
+      <Contact />
       <div className="pages">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Body />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+        </Routes> */}
       </div>
     </Router>
     <Footer />

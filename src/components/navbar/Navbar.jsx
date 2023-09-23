@@ -5,7 +5,7 @@ import "./navbar.css";
 
 function NavBar() {
   const [click, setClick] = useState(false);
-
+  const [activeNav, setActiveNav] = useState("#Home");
   const handleClick = () => setClick(!click);
   return (
     <>
@@ -18,48 +18,34 @@ function NavBar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
+            <a
+                href='#Home'
+                onClick={() => setActiveNav("#Home")}
                 className="nav-links"
-                onClick={handleClick}
               >
                 Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
+              </a>
+              <a
+                href='#about'
+                onClick={() => setActiveNav("#about")}
                 className="nav-links"
-                onClick={handleClick}
               >
                 About Us
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/services"
-                activeClassName="active"
+              </a>
+              <a
+                href='#services'
+                onClick={() => setActiveNav("#services")}
                 className="nav-links"
-                onClick={handleClick}
               >
                 Services
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
+              </a>
+              <a
+                href='#contacts'
+                onClick={() => setActiveNav("#contacts")}
                 className="nav-links"
-                onClick={handleClick}
               >
-                Contact
-              </NavLink>
+                Contacts
+              </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
