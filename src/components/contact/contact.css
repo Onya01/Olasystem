@@ -53,6 +53,8 @@
 }
 
 a {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
   text-decoration-style: none;
 }
@@ -135,8 +137,17 @@ a {
   height: 280px;
   border: solid 3px;
   border-color: whitesmoke;
-  /* border-radius: 5px; */
   margin-top: 50px;
+}
+
+.main_text h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.office p {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 500px) {
@@ -148,7 +159,7 @@ a {
 
   .place {
     width: fit-content;
-    width: 100%;
+    width: 95%;
     height: 140px;
     margin-top: 0;
   }
@@ -159,12 +170,13 @@ a {
   }
 
   .line {
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
+    padding-left: 10rem;
     /* margin: 3rem 8rem; */
   }
 
   .main_text {
-    margin-left: 2rem;
+    margin-left: 3.5rem;
     padding: 4rem;
   }
 
@@ -173,7 +185,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 5rem; */
+    gap: 2rem;
   }
 
   .icon {
@@ -185,14 +197,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 5rem; */
     margin-top: 5rem;
-    /* align-items: center; */
-    /* gap: 3rem; */
   }
 
   .texta {
-    margin-right: 10rem;
+    margin-right: 9rem;
+    padding: .7rem;
   }
 
   .phone {
@@ -200,14 +210,20 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* gap: 5rem; */
-    margin-top: 5rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    gap: 2rem;
   }
 
   .textb {
-    margin-left: 7rem;
-    margin-bottom: 5rem;
+    padding: 1rem;
+    margin-left: 8rem;
+    margin-bottom: 3rem;
   }
+
+  /* .main_text h1 {
+    padding: ;
+  } */
 }
 
 /* @media (max-width: 500px) {
