@@ -1,7 +1,7 @@
 import Address from './components/address/Address';
 import Body from './components/Body/body';
 // import Header from './components/Header/Header';
-import Services from './components/Services/Services';
+import Services from './components/services/Services';
 import About from './components/aboutUs/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';

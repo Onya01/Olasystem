@@ -79,9 +79,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
-    text-align: justify;
-    align-self: center;
-    width: fit-content;
+    /* text-align: justify; */
+    /* align-self: center; */
+    /* width: fit-content; */
   }
 .about_us {
   /* height: fit-content; */
