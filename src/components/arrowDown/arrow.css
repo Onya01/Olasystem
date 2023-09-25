@@ -1,0 +1,132 @@
+.arrow-container {
+    position: fixed;
+    bottom: 20px;
+    right: 50rem;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(
+      180deg,
+      rgb(12, 5, 109) 0%,
+      rgb(251, 190, 62) 100%
+    );
+    border-radius: 50%;
+  }
+  
+  .downArrow {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .downArrow:hover {
+    color: #fff;
+  }
+  
+  
+  /* CSS for the fixed icon */
+span .downArrow {
+    /* position: fixed; */
+    /* margin-top: 590px; */
+    /* left: 340.2px;
+    font-size: 24px; */
+    /* color: #333; */
+    /* cursor: pointer;
+    z-index: 9999; */
+}
+
+.downArrow {
+    /* z-index: 99;
+    position: absolute;
+    background: linear-gradient(
+      180deg,
+      rgb(12, 5, 109) 0%,
+      rgb(251, 190, 62) 100%
+    );
+    border-radius: 50%;
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    top: 23rem; */
+    /* padding: 10px; */
+  
+    /* margin-left: 20rem; */
+    /* margin-bottom: 9rem; */
+  }
+
+  @media (max-width: 768px) {
+    .arrow-container {
+      width: 40px; /* Adjust width for smaller screens */
+      height: 40px; /* Adjust height for smaller screens */
+      bottom: 15px; /* Adjust bottom distance for smaller screens */
+      right: 150px; /* Adjust right distance for smaller screens */
+    }
+  
+    .downArrow {
+      font-size: 20px; /* Adjust font size for smaller screens */
+    }
+  }
+
+/* @media (max-width: 500px) {
+    .arrow-container {
+        position: fixed;
+        bottom: 20px; */
+        /* right: 50rem; */
+        /* z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(
+          180deg,
+          rgb(12, 5, 109) 0%,
+          rgb(251, 190, 62) 100%
+        );
+        border-radius: 50%;
+      } */
+      
+      /* .downArrow {
+        font-size: 24px;
+        color: #333;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+      } */
+      
+      /* .downArrow:hover {
+        color: #fff;
+      } */
+
+    /* span .downArrow { */
+        /* position: fixed; */
+        /* margin-top: 590px; */
+        /* left: 150px;
+        font-size: 24px; */
+        /* color: #333; */
+        /* cursor: pointer;
+        z-index: 9999; */
+    /* } */
+
+    /* .downArrow { */
+        /* z-index: 99;
+        position: absolute;
+        background: linear-gradient(
+          180deg,
+          rgb(12, 5, 109) 0%,
+          rgb(251, 190, 62) 100%
+        );
+        border-radius: 50%;
+        color: #ffffff;
+        width: 4rem;
+        height: 4rem;
+        top: 23rem; */
+        /* padding: 10px; */
+      
+        /* margin-left: 0rem; */
+        /* margin-bottom: 9rem; */
+      /* } */
+/* } */

@@ -1,6 +1,7 @@
 import "./services.css";
 import olasystem from "../../assets/olasystem.png";
 import Line from "../../assets/line.png";
+import Arrow from "../arrowDown/Arrow";
 
 const Services = () => {
   return (
@@ -104,33 +105,8 @@ const Services = () => {
                 /> */}
               {/* </div>
             </section> */}
-
-            {/* <section className='serve'>
-              <div className='web'>
-                <h1>Web Development</h1>
-              </div>
-            </section> */}
-
-            {/* <section className='serve'>
-              <div className='mobile'>
-                <h1>Mobile Development</h1>
-              </div>
-            </section> */}
-
-            {/* <section className='serve'>
-              <div className='datab'>
-                <h1>Database Administrator</h1>
-              </div>
-            </section> */}
-
-            {/* <section className='serve1'>
-              <div className='more'>
-                <h1>and many more</h1>
-              </div>
-            </section> */}
           </div>
-        {/* </div> */}
-      {/* </div> */}
+      <Arrow />
     </section>
   );
 };
