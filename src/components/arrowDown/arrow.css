@@ -60,14 +60,14 @@ span .downArrow {
 
   @media (max-width: 768px) {
     .arrow-container {
-      width: 40px; /* Adjust width for smaller screens */
-      height: 40px; /* Adjust height for smaller screens */
-      bottom: 15px; /* Adjust bottom distance for smaller screens */
-      right: 150px; /* Adjust right distance for smaller screens */
+      width: 40px;
+      height: 40px;
+      bottom: 15px;
+      right: 185px;
     }
   
     .downArrow {
-      font-size: 20px; /* Adjust font size for smaller screens */
+      font-size: 20px;
     }
   }
 
