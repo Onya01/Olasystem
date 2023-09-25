@@ -51,31 +51,43 @@
     /* align-content: center; */
     justify-content: center;
   }
-.serv h1 {
-  width: 300px;
-  justify-content: center;
-  align-content: center;
-  padding-left: 35px;
-}
+  .serv h1 {
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    padding-left: 35px;
+  }
 
-.lint {
-  margin-left: 45%;
-  width: 2rem;
-  border-radius: 5%;
-}
+  .lint {
+    margin-left: 45%;
+    width: 2rem;
+    border-radius: 5%;
+  }
 
-.service {
-  z-index: -99;
-  height: fit-content;
-  padding-bottom: 50px;
-  /* width: fit-content; */
-}
+  .service {
+    /* height: 200rem;
+  z-index: -1;
+  background: #f5f1f1;
+  margin-bottom: 0;
+  max-width: 100%; */
+    /* height: fit-content; */
+    /* padding-bottom: 50px; */
+    /* width: fit-content; */
+  }
 
-.text_services {
-  margin-left: 200px;
-}
+  .text_services {
+    margin-left: 200px;
+  }
   .set{
     width: 150px;
+  }
+
+  .service {
+    /* margin-top: 2rem;
+    z-index: -1; */
+    /* background-color: #e4e0e0; */
+    /* margin-top: 4px; */
+    /* height: 500px; */
   }
 }
 
@@ -127,7 +139,6 @@
   } */
 
   .service {
-    z-index: -9;
     height: fit-content;
   }
 
@@ -144,10 +155,11 @@
 }
 
 .service {
+  height: 120%;
   z-index: -1;
   background: #f5f1f1;
   margin-bottom: 0;
-  max-width: 100%;
+  width: 100%;
   opacity: 0; 
   animation: fadeUp 1s ease-in-out forwards; 
 }

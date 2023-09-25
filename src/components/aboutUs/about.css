@@ -27,6 +27,9 @@
   animation: fadeUp 1s ease-in-out forwards; 
 }
 
+/* .about_us p {
+  font-size: 50px;
+} */
 
 @keyframes fadeUp {
   0% {
@@ -70,7 +73,7 @@
   line-height: 20px;
   text-align: justify;
   margin: 1px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .about {
@@ -78,28 +81,11 @@
 
 }
 
-span .downArrow {
-  z-index: 99;
-  position: absolute;
-  background: linear-gradient(
-    180deg,
-    rgb(12, 5, 109) 0%,
-    rgb(251, 190, 62) 100%
-  );
-  border-radius: 50%;
-  color: #ffffff;
-  width: 4rem;
-  height: 4rem;
-  top: 23rem;
-  /* padding: 10px; */
 
-  margin-left: 20rem;
-  /* margin-bottom: 9rem; */
-}
 
-.downArrow {
+/* .downArrow {
   font-size: 10rem;
-}
+} */
 
 
 /* .lin {
@@ -108,28 +94,13 @@ span .downArrow {
 
 @media (max-width: 500px) {
   .about_us h1 {
-    font-size: 36px;
+    font-size: 0px;
     line-height: 48px;
     justify-content: center;
   }
 
-  span .downArrow {
-    z-index: 99;
-    position: absolute;
-    background: linear-gradient(
-      180deg,
-      rgb(12, 5, 109) 0%,
-      rgb(251, 190, 62) 100%
-    );
-    border-radius: 50%;
-    color: #ffffff;
-    width: 4rem;
-    height: 4rem;
-    top: 29rem;
-    /* padding: 10px; */
-  
-    margin-right: 22rem;
-    /* margin-bottom: 9rem; */
+  .about_us p {
+    font-size: 12px;
   }
 
   /* .about_us p {
@@ -171,7 +142,7 @@ span .downArrow {
  }
  .about {
    width: fit-content;
-   height: fit-content
+   height:33rem
  }
  .about_line {
    border-radius: 5%;
@@ -202,7 +173,7 @@ span .downArrow {
  }
 
  span .downArrow {
-  z-index: 99;
+  /* z-index: 99;
   position: absolute;
   background: linear-gradient(
     180deg,
@@ -213,10 +184,10 @@ span .downArrow {
   color: #ffffff;
   width: 4rem;
   height: 4rem;
-  top: 23rem;
+  top: 23rem; */
   /* padding: 10px; */
 
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   /* margin-bottom: 9rem; */
 }
 

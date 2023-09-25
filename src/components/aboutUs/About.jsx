@@ -1,6 +1,7 @@
 import "./about.css";
 import Line from "../../assets/line.png";
-import { BsChevronDown } from 'react-icons/bs';
+import Arrow from "../arrowDown/Arrow";
+
 
 const About = () => {
   return (
@@ -18,15 +19,9 @@ const About = () => {
           professionals.
           <br /><br />
           We utilize cutting-edge technologies and tools to deliver top notch solutions.Our employees work as independent contractors with our clients assigned to them.The minimum duration of each contract ranges from six months to one year and extends as long as our services are needed by our partners. Our engineers are sourced majorly in the USA, Europe and United Kingdom, this selection process is according to the needs or requirements of our clients. Our drive is so see business thrive through software engineering.
-
-          <span>
-        <BsChevronDown
-          className="downArrow" 
-        />
-        </span>
         </p>
-
       </div>
+      
     </section>
   );
 };
