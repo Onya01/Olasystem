@@ -1,5 +1,5 @@
 .arrow-container {
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right: 50rem;
     z-index: 9999;
@@ -60,10 +60,11 @@ span .downArrow {
 
   @media (max-width: 768px) {
     .arrow-container {
+      top: 75rem;
       width: 40px;
       height: 40px;
       bottom: 15px;
-      right: 185px;
+      right: 170px;
     }
   
     .downArrow {

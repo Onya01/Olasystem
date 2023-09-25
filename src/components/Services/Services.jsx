@@ -106,7 +106,6 @@ const Services = () => {
               {/* </div>
             </section> */}
           </div>
-      <Arrow />
     </section>
   );
 };

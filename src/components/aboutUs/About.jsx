@@ -6,6 +6,7 @@ import Arrow from "../arrowDown/Arrow";
 const About = () => {
   return (
     <section className='about' id='about'>
+      <Arrow />
       <div className='about_us'>
 
         <img className='about_line' src={Line} alt='line' width={100} height={7} />
