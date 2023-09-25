@@ -21,6 +21,10 @@
     /* padding-bottom: 0; */
 }
 
+.text1 {
+    color: black;
+}
+
 .office {
     display: flex;
     flex-direction: row;
