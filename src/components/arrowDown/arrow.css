@@ -60,8 +60,8 @@ span .downArrow {
 
   @media (max-width: 768px) {
     .arrow-container {
-      width: 30px; /* Adjust width for smaller screens */
-      height: 30px; /* Adjust height for smaller screens */
+      width: 40px; /* Adjust width for smaller screens */
+      height: 40px; /* Adjust height for smaller screens */
       bottom: 15px; /* Adjust bottom distance for smaller screens */
       right: 150px; /* Adjust right distance for smaller screens */
     }
@@ -71,12 +71,12 @@ span .downArrow {
     }
   }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .arrow-container {
         position: fixed;
-        bottom: 20px;
+        bottom: 20px; */
         /* right: 50rem; */
-        z-index: 9999;
+        /* z-index: 9999;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -88,20 +88,20 @@ span .downArrow {
           rgb(251, 190, 62) 100%
         );
         border-radius: 50%;
-      }
+      } */
       
-      .downArrow {
+      /* .downArrow {
         font-size: 24px;
         color: #333;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
-      }
+      } */
       
-      .downArrow:hover {
+      /* .downArrow:hover {
         color: #fff;
-      }
+      } */
 
-    span .downArrow {
+    /* span .downArrow { */
         /* position: fixed; */
         /* margin-top: 590px; */
         /* left: 150px;
@@ -109,9 +109,9 @@ span .downArrow {
         /* color: #333; */
         /* cursor: pointer;
         z-index: 9999; */
-    }
+    /* } */
 
-    .downArrow {
+    /* .downArrow { */
         /* z-index: 99;
         position: absolute;
         background: linear-gradient(
@@ -128,5 +128,5 @@ span .downArrow {
       
         /* margin-left: 0rem; */
         /* margin-bottom: 9rem; */
-      }
-}
+      /* } */
+/* } */
