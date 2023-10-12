@@ -48,9 +48,9 @@
 
 @media (max-width: 900px) {
     .head {
-        display: flex;
+        /* display: flex; */
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 }
@@ -58,5 +58,8 @@
 @media (max-width: 500px) {
     .heder {
         display: none;
+    }
+    .about_us {
+        height: fit-content;
     }
 }

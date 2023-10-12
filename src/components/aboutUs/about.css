@@ -102,7 +102,6 @@
   .about_us p {
     font-size: 12px;
   }
-  .home {}
 
   /* .about_us p {
     padding: 10px;
@@ -143,7 +142,7 @@
  }
  .about {
    width: fit-content;
-   height:36rem
+   height:39rem
  }
  .about_line {
    border-radius: 5%;
@@ -157,6 +156,7 @@
     font-size: 48px;
     line-height: 60px;
   }
+
   .about_us p {
     justify-content: center;
     width: fit-content;
@@ -172,30 +172,7 @@
   .about_line {
   right: 1rem;
  }
-
- span .downArrow {
-  /* z-index: 99;
-  position: absolute;
-  background: linear-gradient(
-    180deg,
-    rgb(12, 5, 109) 0%,
-    rgb(251, 190, 62) 100%
-  );
-  border-radius: 50%;
-  color: #ffffff;
-  width: 4rem;
-  height: 4rem;
-  top: 23rem; */
-  /* padding: 10px; */
-
-  /* margin-left: 2rem; */
-  /* margin-bottom: 9rem; */
 }
-
-}
-
-/* @media (min-width: 1025px) {
-} */
 
 .about_line {
   position: relative;
@@ -203,7 +180,7 @@
   padding-top: 50px;
 }
 
-/* .about_us h1 {
+.about_us h1 {
   animation-name: slide-in;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -218,4 +195,4 @@
     transform: translateX(0);
     opacity: 1;
   }
-} */
+}
